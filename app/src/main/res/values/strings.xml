@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Module</string>
+    <string name="C203">C203 Web App ln Development in php</string>
+    <string name="C206">C206 Software Development Process</string>
+    <string name="C218">C218 UI/UX Design for Apps</string>
+    <string name="C235">C235 IT Security and Management </string>
+    <string name="C346">C346 Mobile App Development</string>
+    <string name="ModuleCode">Module Code</string>
+    <string name="ModuleName">Module Name:</string>
+    <string name="AcademicYear">Academic Year</string>\
+    <string name="Semester">Semester</string>
+    <string name="ModuleCredit">ModuleCredit</string>
+    <string name="Venue">Venue</string>
+</resources>

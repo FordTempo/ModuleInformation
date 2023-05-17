@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_qimg_d8ab7542eb431c11df80d40fbbe5971a_lq"
+    android:padding="16dp"
+    tools:context=".SecondaryActivity">
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ModuleCodeView"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/ModuleCode"
+                android:textColor="#126059"
+                android:textColorHint="#BC3D3D"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/ModuleCodeText"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="text"
+                android:text=":"
+                android:textColor="#126059"
+                android:textColorHint="#BC3D3D"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="311dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/ModuleNameView"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="@string/ModuleName"
+                android:textColor="#126059"
+                android:textColorHint="#BC3D3D"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/ModuleNameText"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="text"
+                android:text=":"
+                android:textColor="#126059"
+                android:textColorHint="#BC3D3D"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ModuleAcademicView"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/AcademicYear"
+                android:textColor="#126059"
+                android:textColorHint="#BC3D3D"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/ModuleAcademicText"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="text"
+                android:text=":"
+                android:textColor="#126059"
+                android:textColorHint="#BC3D3D"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ModuleSemesterView"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/Semester"
+                android:textColor="#126059"
+                android:textColorHint="#BC3D3D"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/ModuleSemesterText"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="text"
+                android:text=":"
+                android:textColor="#126059"
+                android:textColorHint="#BC3D3D"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ModuleVenueView"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/Venue"
+                android:textColor="#126059"
+                android:textColorHint="#BC3D3D"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/ModuleVenueText"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="text"
+                android:text=":"
+                android:textColor="#126059"
+                android:textColorHint="#BC3D3D"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ModuleCreditView"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/ModuleCredit"
+                android:textColor="#126059"
+                android:textColorHint="#BC3D3D"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/ModuleCreditText"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="text"
+                android:text=":"
+                android:textColor="#126059"
+                android:textColorHint="#BC3D3D"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
